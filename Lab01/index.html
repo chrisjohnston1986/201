@@ -1,3 +1,5 @@
+<!-- Table 11 Remo Collaboration w/Trace and Hunter -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,12 +11,12 @@
       }
 
       h1 {
-        background-color: pink;
-        color: blue;
+        background-color: black;
+        color: white;
       }
 
       p {
-        color: red;
+        color: black;
       }
     </style>
     <!-- <link rel="stylesheet" href="style.css"> -->
@@ -25,10 +27,10 @@
     </header>
     <main>
       <!-- Inline CSS styling -->
-      <p style="background-color: orange; color: green">What is your name?</p>
-      <p>How old are you?</p>
-      <p></p>
-      <p></p>
+      <p style="background-color: red; color: white">What is your name?</p>
+      <p style="background-color: white; color: red">How old are you?</p>
+      <p style="background-color: black; color: white">What is your favorite color?</p>
+      <p style="background-color: white; color: black">Is this questioning FINALLY getting old?</p>
 
     </main>
     <footer></footer>
@@ -44,7 +46,18 @@
      let userResponseTwo = prompt('How old are you?');
      console.log('user response to Q2: ', userResponseTwo);
 
-     alert('Wow ' + userResponseOne + ', you are ' + userResponseTwo + ' that is so old!');
+     alert('Wow ' + userResponseOne + ', you are ' + userResponseTwo + ' and that is so old!');
+
+     let userResponseThree = prompt('What is your favorite color?');
+     console.log('user response to Q3: ', userResponseThree);
+
+     alert('Wow ' + userResponseOne + ', you are ' + userResponseTwo + ' and you still like ' + userResponseThree + ' ? ' );
+
+     let userResponseFour = prompt('Is this questioning FINALLY getting old?');
+     console.log('user response to Q4: ', userResponseFour);
+
+     alert('Are you sure your answer is ' + userResponseFour + '? Well, ' + userResponseOne + ', at the young age of ' + userResponseTwo + ', you should take your ' + userResponseThree + ' color and get outta here! ' );
+
     </script>
   </body>
 </html>
