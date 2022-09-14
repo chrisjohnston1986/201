@@ -1,0 +1,84 @@
+Class 02 Lecture Notes
+
+Javascript
+
+- loosely typed, we dont have to know the type of data we are going to use to declare a variable
+
+- dynamic language, can change the data type after a variable has been declared.
+
+Data Types
+
+-String
+
+  Sequence of characters used to represent text, written in single quotes
+    - 'hello'
+
+-Numbers
+
+  Numerical type
+    - full numbers, decimals, negatives
+
+-Booleans
+
+  logical data type
+    - true or false
+    - truthy/falsey
+
+-Undefined
+
+  it hasn't been defined yet
+
+-Null
+
+
+   condition
+if(amIHungry){
+  eat;
+} 
+else if(amIThirsty){
+  drink water;
+}
+else {
+  take a nap;
+}
+
+Truthy and Falsey
+
+NUMBERS 
+0 - is the only falsey value
+ANY OTHER NUMBER IS TRUTHY
+
+STRINGS
+'' is the only falsey value 
+ANY OTHER STRING IS TRUTHY 
+
+Comparison Operators
+
+ex: >=, <=, >, <
+=== - STRICTLY EQUALS - OUR WORLD!!!!!!
+!== STRICTLY NOT EQUALS
+== - LOOSELY EQUALS OR COMPARATIVE EQUALS - NOT OUR WORLD!
+!= LOOSELY NOT EQUAL
+
+let a = '5';
+
+console.log(a == 5);
+console.log(a >= '5');
+
+Logical Operators  
+
+ex: AND - && 
+    OR - ||
+    ! - NOT - opposite of whatever it is in front of 
+
+    console.log(!true)
+
+    if(a === 5 && a < 10){ *if both are true the code will run*
+      console.log('will this run?');
+    }
+
+   if('' && 'hello'){ 
+      console.log('will this run?');
+    }
+
+    
